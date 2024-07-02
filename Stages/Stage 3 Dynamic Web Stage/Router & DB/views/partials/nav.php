@@ -11,7 +11,6 @@
                         <!-- urlIS takes a URL string as its argument ($value) (see index.php for function description). Echoes relevant Style for page button depending on page path.-->
                         <a href="/" class="<?php urlIS('/') ? 'bg-gray-900 text white' : 'text-gray-300'; ?> rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Home</a>
                         <a href="/about" class="<?php urlIS('/about') ? 'bg-gray-900 text white' : 'text-gray-300'; ?> rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</a>
-                        <a href="/notes" class="<?php urlIS('/notes') ? 'bg-gray-900 text white' : 'text-gray-300'; ?> rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Notes</a>
                         <a href="/contact" class="<?php urlIS('/contact') ? 'bg-gray-900 text white' : 'text-gray-300'; ?> rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Content</a>
                     </div>
                 </div>
